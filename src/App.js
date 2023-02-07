@@ -18,7 +18,7 @@ function App() {
       {id: "3", title: "JavaScript 3", body: "description about js"},
     ])
 
-    const [filter, setFilter] = useState({sort: '', query: ''})
+    const [filter, setFilter] = useState({sort: '', query: ''});
 
     const [modal, setModal] = useState(false)
 
